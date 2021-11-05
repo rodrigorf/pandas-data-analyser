@@ -3,10 +3,12 @@ Code in python to generate some basic stats in a csv/excel file using pandas and
 
 ## How it works?
 
--> **Uses the skill points add buttons image from the character screen**<br>
--> **If you are running a different game version, change the buttons.png image.**<br>
--> **It will click in a specific mouse X and Y position to add the points automatically**<br>
+-> **The idea is to take a table like information and get some basic stats from it, using Pandas lib**<br>
 
+-> Here`s an example of the input:
+![image](https://user-images.githubusercontent.com/6570848/140586671-8dac1b31-0d76-4c1e-94fe-3f291af40564.png)
+
+-> Here`s an example of the output:
 
       ===== DATA SAMPLE (first five rows) =====
          ESTCIVIL  INSTRUCAO  FILHOES  SALÁRIO  ANO   MÊS  REGIAO
@@ -52,7 +54,7 @@ Code in python to generate some basic stats in a csv/excel file using pandas and
       3    6    60
 
 
-**NOTE**: created only as example. The data is not real.
+**NOTE**: created only as example. The data is not real and its just a small sample.
 
 ## What this code wont do!
 
