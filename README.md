@@ -8,48 +8,48 @@ Code in python to generate some basic stats in a csv/excel file using pandas and
 -> **It will click in a specific mouse X and Y position to add the points automatically**<br>
 
 
-===== DATA SAMPLE (first five rows) =====
-   ESTCIVIL  INSTRUCAO  FILHOES  SALÁRIO  ANO   MÊS  REGIAO
-0       1.0          1      NaN     4.00   26   3.0       1
-1       2.0          1      1.0     4.56   32  10.0       2
-2       2.0          1      2.0     5.25   36   5.0       2
-3       1.0          2      NaN     5.73   20  10.0       3
-4       1.0          1      NaN     6.26   40   7.0       3
+      ===== DATA SAMPLE (first five rows) =====
+         ESTCIVIL  INSTRUCAO  FILHOES  SALÁRIO  ANO   MÊS  REGIAO
+      0       1.0          1      NaN     4.00   26   3.0       1
+      1       2.0          1      1.0     4.56   32  10.0       2
+      2       2.0          1      2.0     5.25   36   5.0       2
+      3       1.0          2      NaN     5.73   20  10.0       3
+      4       1.0          1      NaN     6.26   40   7.0       3
 
-===== COUNT BY COLUMN (VALID CELLS) =====
-       ESTCIVIL  INSTRUCAO  FILHOES  SALÁRIO    ANO    MÊS  REGIAO
-count     29.00      32.00    17.00    32.00  32.00  30.00   32.00
-mean       1.41       1.84     1.53     9.77  34.22   5.33    2.03
-std        0.73       0.72     1.01     5.82   6.70   3.52    0.82
-min       -1.00       1.00     0.00    -1.00  20.00  -1.00    1.00
-25%        1.00       1.00     1.00     6.56  30.00   2.25    1.00
-50%        2.00       2.00     2.00     8.84  34.00   5.00    2.00
-75%        2.00       2.00     2.00    12.90  39.25   7.75    3.00
-max        2.00       3.00     3.00    23.30  48.00  11.00    3.00
+      ===== COUNT BY COLUMN (VALID CELLS) =====
+             ESTCIVIL  INSTRUCAO  FILHOES  SALÁRIO    ANO    MÊS  REGIAO
+      count     29.00      32.00    17.00    32.00  32.00  30.00   32.00
+      mean       1.41       1.84     1.53     9.77  34.22   5.33    2.03
+      std        0.73       0.72     1.01     5.82   6.70   3.52    0.82
+      min       -1.00       1.00     0.00    -1.00  20.00  -1.00    1.00
+      25%        1.00       1.00     1.00     6.56  30.00   2.25    1.00
+      50%        2.00       2.00     2.00     8.84  34.00   5.00    2.00
+      75%        2.00       2.00     2.00    12.90  39.25   7.75    3.00
+      max        2.00       3.00     3.00    23.30  48.00  11.00    3.00
 
-===== MISSING DATA =====   
-           Percentage (%)  
-ESTCIVIL             9.38  
-INSTRUCAO            0.00  
-FILHOES             46.88  
-SALÁRIO              0.00  
-ANO                  0.00  
-MÊS                  6.25  
-REGIAO               0.00  
+      ===== MISSING DATA =====   
+                 Percentage (%)  
+      ESTCIVIL             9.38  
+      INSTRUCAO            0.00  
+      FILHOES             46.88  
+      SALÁRIO              0.00  
+      ANO                  0.00  
+      MÊS                  6.25  
+      REGIAO               0.00  
 
-===== STATS BY COLUMN =====
+      ===== STATS BY COLUMN =====
 
-QTD  RANK  GRADE: ESTCIVIL 
-2.0    15    150
-1.0    12    120
-nan    3    3
--1.0    1    10
-0.0    1    10
+      QTD  RANK  GRADE: ESTCIVIL 
+      2.0    15    150
+      1.0    12    120
+      nan    3    3
+      -1.0    1    10
+      0.0    1    10
 
-QTD  RANK  GRADE: INSTRUCAO
-2    15    150
-1    11    110
-3    6    60
+      QTD  RANK  GRADE: INSTRUCAO
+      2    15    150
+      1    11    110
+      3    6    60
 
 
 **NOTE**: created only as example. The data is not real.
