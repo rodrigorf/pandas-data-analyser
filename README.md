@@ -3,10 +3,10 @@ Code in python to generate some basic stats in a csv/excel file using pandas and
 
 ## How it works?
 
--> **The idea is to take a table like information and get some basic stats from it, using Pandas lib**<br>
+-> **The idea is to take a table like information and get some basic stats from it, using Pandas lib. Example of INPUT:**<br>
 
--> Here`s an example of the input:
-![image](https://user-images.githubusercontent.com/6570848/140586671-8dac1b31-0d76-4c1e-94fe-3f291af40564.png)
+![image](https://user-images.githubusercontent.com/6570848/140586671-8dac1b31-0d76-4c1e-94fe-3f291af40564.png)<br><br>
+
 
 -> Here`s an example of the output:
 
